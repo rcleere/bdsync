@@ -1565,7 +1565,7 @@ int do_patch (char *dev)
 
 static struct option long_options[] = {
       {"server",    no_argument,       0, 's' }
-    , {"patch",     optional_argument, 0, 'p' }
+    , {"patch",     required_argument, 0, 'p' }
     , {"verbose",   no_argument,       0, 'v' }
     , {"blocksize", required_argument, 0, 'b' }
     , {"hash",      required_argument, 0, 'd' }
